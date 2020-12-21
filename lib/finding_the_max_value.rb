@@ -1,4 +1,5 @@
 def find_max_value(array)
+  #the folowing solution itterates through each element in array and tests to see if it is greater than max_value. If true it assigns max_value to value from array then moves to next index. If false it moves to next index.
   index=0
   max_value=0
   while index < array.length do
@@ -10,4 +11,6 @@ def find_max_value(array)
     end
   end
   max_value
+  
+  #array.ma
 end
